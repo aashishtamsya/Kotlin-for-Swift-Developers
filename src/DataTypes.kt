@@ -6,8 +6,10 @@ package demo
 
 fun main(args: Array<String>) {
 
+    //Immutable Value - Constant
     val name = "Aashish"
 
+    //Mutable Value - Veriable
     var myAge = 24
 
     var bigInt: Int = Int.MAX_VALUE
