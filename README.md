@@ -10,6 +10,7 @@ This project focus only on Kotlin, not Android Application Developement with Kot
 - 	[Kotlin](#kotlin)
 	-	[Data Types](#data-types)
 	- 	[Casting](#casting)
+- 	[TODO](#todo)
 	
 
 ## Requirements
@@ -37,3 +38,27 @@ In Kotlin, everything is an object in the sense that we can call member function
 In Kotlin, you can convert a data type into another form, such as Floating number to `Int`, `Char` to `Int` & vice-versa
 
 - [Source Code](/src/Casting.kt)
+
+## TODO
+
+- [x] Install
+- [x] Data Types
+- [x] Casting
+- [ ] Strings
+- [ ] Arrays
+- [ ] Ranges
+- [ ] Conditionals
+- [ ] If
+- [ ] When
+- [ ] For
+- [ ] While
+- [ ] Functions
+- [ ] Higher Order Functions
+- [ ] Collection Operators
+- [ ] Exception Handling
+- [ ] Lists
+- [ ] Maps
+- [ ] Classes
+- [ ] Inheritance
+- [ ] Interfaces
+- [ ] Null Safety
