@@ -1,10 +1,8 @@
-# Learn Kotlin 
-
-A project to keep track of what I learned in Kotlin.
-
-> PS: If you are looking to develop Android application with Kotlin, then this is not the project for you.  
+# Kotlin for Swift Developers
 
 This project focus only on Kotlin, not Android Application Developement with Kotlin. I feel the need to learning Kotlin basics and building a string Kotlin foundation before jumping into Android Development.
+
+> PS: If you are looking to develop Android application with Kotlin, then this is not the project for you.  
 
 ## Table Of Content
 
