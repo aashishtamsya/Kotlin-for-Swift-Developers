@@ -11,6 +11,7 @@ This project focus only on Kotlin, not Android Application Developement with Kot
 -	[Requirements](#requirement)
 - 	[Kotlin](#kotlin)
 	-	[Data Types](#data-types)
+	- 	[Casting](#casting)
 	
 
 ## Requirements
@@ -29,8 +30,12 @@ The name comes from Kotlin Island, near St. Petersburg. Andrey Breslav mentioned
 
 ### Data Types
 
-In Kotlin, everything is an object in the sense that we can call member functions and properties on any variable. Some types are built-in, because their implementation is optimized, but to the user they look like ordinary classes.
+In Kotlin, everything is an object in the sense that we can call member functions and properties on any variable. Some types are built-in, because their implementation is optimized, but to the user they look like ordinary classes.git s
 
 - [Source Code](/src/DataTypes.kt)
 	
+### Casting
 
+In Kotlin, you can convert a data type into another form, such as Floating number to `Int`, `Char` to `Int` & vice-versa
+
+- [Source Code](/src/Casting.kt)
