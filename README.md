@@ -48,17 +48,20 @@ In Kotlin, you can convert a data type into another form, such as Floating numbe
 
 Strings are represented by the type String. Strings are immutable. Elements of a string are characters that can be accessed by the indexing operation: s[i]. A string can be iterated over with a for-loop:
 
-```
-	for (c in str) {
-   	 	println(c)
-	}
+```kotlin
+for (c in str) {
+	println(c)
+}
 ```
 
 #### String Literals
 
 Kotlin has two types of string literals: escaped strings that may have escaped characters in them and raw strings that can contain newlines and arbitrary text. An escaped string is very much like a Java string:
 
-`val s = "Hello, world!\n"`
+```kotlin
+val s = "Hello, world!\n"
+```
+
 
 ## TODO
 
