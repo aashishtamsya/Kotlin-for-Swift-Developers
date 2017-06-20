@@ -10,6 +10,7 @@ This project focus only on Kotlin, not Android Application Developement with Kot
 - 	[Kotlin](#kotlin)
 	-	[Data Types](#data-types)
 	- 	[Casting](#casting)
+	-	[Strings](#strings)
 - 	[TODO](#todo)
 	
 
@@ -29,22 +30,42 @@ The name comes from Kotlin Island, near St. Petersburg. Andrey Breslav mentioned
 
 ### Data Types
 
+- [Source Code](/src/DataTypes.kt)
+
 In Kotlin, everything is an object in the sense that we can call member functions and properties on any variable. Some types are built-in, because their implementation is optimized, but to the user they look like ordinary classes.git s
 
-- [Source Code](/src/DataTypes.kt)
 	
 ### Casting
 
+- [Source Code](/src/Casting.kt)
+
 In Kotlin, you can convert a data type into another form, such as Floating number to `Int`, `Char` to `Int` & vice-versa
 
-- [Source Code](/src/Casting.kt)
+
+### Strings
+
+- [Source Code](/src/Strings.kt)
+
+Strings are represented by the type String. Strings are immutable. Elements of a string are characters that can be accessed by the indexing operation: s[i]. A string can be iterated over with a for-loop:
+
+```
+	for (c in str) {
+   	 	println(c)
+	}
+```
+
+#### String Literals
+
+Kotlin has two types of string literals: escaped strings that may have escaped characters in them and raw strings that can contain newlines and arbitrary text. An escaped string is very much like a Java string:
+
+`val s = "Hello, world!\n"`
 
 ## TODO
 
 - [x] Install
 - [x] Data Types
 - [x] Casting
-- [ ] Strings
+- [x] Strings
 - [ ] Arrays
 - [ ] Ranges
 - [ ] Conditionals
